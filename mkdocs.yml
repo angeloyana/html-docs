@@ -1,0 +1,24 @@
+site_name: HTML Basics
+site_url: https://angeloyana.github.io/html-docs
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.tabbed:
+      alternate_style: true
